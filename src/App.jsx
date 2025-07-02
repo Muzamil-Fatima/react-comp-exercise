@@ -5,11 +5,11 @@ import FunctionJS from "./FunctionJS";
 
 function App() {
   return (
-    <>
-    <FunctionJS />
+    <div>
+      <FunctionJS />
       <ToDo />
       <FunJs />
-    </>
+    </div>
   );
 }
 

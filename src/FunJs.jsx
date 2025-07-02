@@ -31,7 +31,7 @@ function operation(a, b, op) {
 
 return (
     <div>
-    <h1>JSX with Curly Braces</h1>
+    <h1 className="bg-amber-300">JSX with Curly Braces</h1>
     <h1>{name ? name:"user not found"}</h1>
     <h1>{x + y}</h1>
     <h1>{fruit()}</h1>
