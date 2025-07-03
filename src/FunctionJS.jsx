@@ -1,7 +1,4 @@
 function FunctionJS() {
-//   function callFun() {
-//     alert("function called");
-//   }
   const fruit = () => {
     alert("apple");
   };
@@ -11,10 +8,10 @@ function FunctionJS() {
 
   return (
     <div>
-      <h1 className="bg-amber-300">Event and Function call</h1>
-      <button onClick={()=> fruit("apple")} className="bg-red-300">Apple</button>
-      <button onClick={()=> fruit1("banana")}>Banana</button>
-      <button onClick={()=>{alert("yes, you click me ")}}>Click Me</button>
+      <h1 className="bg-amber-300 font-bold">Event and Function call</h1>
+      <button onClick={()=> fruit("apple")} className=" border-2 m-2 p-2">Apple</button>
+      <button onClick={()=> fruit1("banana")} className=" border-2 m-2 p-2">Banana</button>
+      <button onClick={()=>{alert("yes, you click me ")}} className=" border-2 m-2 p-2">Click Me</button>
     </div>
   );
 }
