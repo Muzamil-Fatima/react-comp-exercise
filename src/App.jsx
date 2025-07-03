@@ -5,7 +5,7 @@ import FunctionJS from "./FunctionJS";
 
 function App() {
   return (
-    <div>
+    <div className="text-2xl text-center text-blue-500">
       <FunctionJS />
       <ToDo />
       <FunJs />
