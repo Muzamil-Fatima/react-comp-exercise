@@ -18,6 +18,9 @@ function operation(a, b, op) {
     return a + b;
   } else if (op == "-") {
     return a - b;
+  } 
+  else if (op == "*") {
+    return a * b;
   } else {
     return a + b;
   }
